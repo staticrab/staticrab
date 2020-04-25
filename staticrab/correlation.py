@@ -29,4 +29,6 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
         raise ValueError(f"Only the dtype = np.float64 is supported. The provided x has dtype {x.dtype}.")
     if y.dtype != np.float64:
         raise ValueError(f"Only the dtype = np.float64 is supported. The provided y has dtype {y.dtype}.")
+
+    # calling the backend function that does not do any checks
     return B.chatterjee(x, y, False)
