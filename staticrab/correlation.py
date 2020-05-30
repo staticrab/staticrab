@@ -6,6 +6,7 @@ The module for fast correlation computation.
 
 import staticrab_backend as B
 import numpy as np
+from typing import cast
 
 
 def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
@@ -45,4 +46,4 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
         raise ValueError(f"Only the dtype = np.float64 is supported. The provided y has dtype {y.dtype}.")
 
     # calling the backend function that does not do any checks
-    return B.chatterjee(x, y, False)
+    return cast(float, B.chatterjee(x, y, False))
