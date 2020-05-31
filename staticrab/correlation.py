@@ -39,7 +39,7 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
     """
     # TODO: Move this check to the backend
     if len(np.unique(y)) == 1:
-        raise ValueError('The y cannot be constant.')
+        raise ValueError("The y cannot be constant.")
     if x.dtype != np.float64:
         raise ValueError(f"Only the dtype = np.float64 is supported. The provided x has dtype {x.dtype}.")
     if y.dtype != np.float64:
