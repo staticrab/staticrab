@@ -1,6 +1,6 @@
 # staticrab
 
-A library for fast calculation of various correlation measures. The API is described in the [documentation](https://staticrab.readthedocs.io/).
+A library for fast calculation of various correlation measures in python. The API is described in the [documentation](https://staticrab.readthedocs.io/).
 
 The goal of this mini library is not to replace [Scipy stack](https://www.scipy.org/), [statsmodels](https://www.statsmodels.org/stable/index.html) nor [PyMC3](https://docs.pymc.io/) but rather to complement them.
 
