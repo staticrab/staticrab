@@ -14,6 +14,10 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
     Computes the Chatterjee's correlation measure.
 
     The function computes the Chatterjee's correlation measure.
+    The algorithm is described at arXiv:1909.10140.
+    It computes a deterministic version of the coefficients where the ties are not
+    broken at random. To have the random breakage, randomly shuffle the input
+    arrays before using this function.
 
     Parameters
     ----------
