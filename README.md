@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/github/license/staticrab/staticrab)](https://opensource.org/licenses/MIT)
 [![Wheel?](https://img.shields.io/pypi/wheel/staticrab)](https://pypi.org/project/staticrab/)
 [![Documentation](https://img.shields.io/readthedocs/staticrab)](https://staticrab.readthedocs.io/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![Version](https://img.shields.io/pypi/v/staticrab)](https://pypi.org/project/staticrab/)
 [![Python version: 3.8](https://img.shields.io/pypi/pyversions/staticrab)](https://www.python.org/)
 
