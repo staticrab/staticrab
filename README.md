@@ -1,6 +1,7 @@
 # staticrab
 [![License: MIT](https://img.shields.io/github/license/staticrab/staticrab)](https://opensource.org/licenses/MIT)
 [![Wheel?](https://img.shields.io/pypi/wheel/staticrab)](https://pypi.org/project/staticrab/)
+[![Documentation](https://img.shields.io/readthedocs/staticrab)](https://staticrab.readthedocs.io/)
 
 A library for fast calculation of various correlation measures in python. The API is described in the [documentation](https://staticrab.readthedocs.io/).
 
@@ -12,6 +13,10 @@ So far, this library implements only one function and that is the fast(ish) calc
 ### Chatterjee's correlation coefficient
 Chatterjee's correlation coefficient (also called Chatterjee's xi) is a recently proposed correlation coeffient that can be used for testing of nonlinear functional relationships between two variables (viz [original paper](https://arxiv.org/abs/1909.10140)).
 
+## Installation
+```
+pip install staticrab
+```
 
 ## Notes
 
