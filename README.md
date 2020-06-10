@@ -1,8 +1,9 @@
 # staticrab
-[![Version](https://img.shields.io/pypi/v/staticrab)](https://pypi.org/project/staticrab/)
+[![Build Status](https://travis-ci.org/staticrab/staticrab.svg?branch=master)](https://travis-ci.org/staticrab/staticrab)
 [![License: MIT](https://img.shields.io/github/license/staticrab/staticrab)](https://opensource.org/licenses/MIT)
 [![Wheel?](https://img.shields.io/pypi/wheel/staticrab)](https://pypi.org/project/staticrab/)
 [![Documentation](https://img.shields.io/readthedocs/staticrab)](https://staticrab.readthedocs.io/)
+[![Version](https://img.shields.io/pypi/v/staticrab)](https://pypi.org/project/staticrab/)
 [![Python version: 3.8](https://img.shields.io/pypi/pyversions/staticrab)](https://www.python.org/)
 
 A library for fast calculation of various correlation measures in python. The API is described in the [documentation](https://staticrab.readthedocs.io/).
