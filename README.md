@@ -1,4 +1,6 @@
 # staticrab
+[![License: MIT](https://img.shields.io/github/license/staticrab/staticrab)](https://opensource.org/licenses/MIT)
+[![Wheel?](https://img.shields.io/pypi/wheel/staticrab)](https://pypi.org/project/staticrab/)
 
 A library for fast calculation of various correlation measures in python. The API is described in the [documentation](https://staticrab.readthedocs.io/).
 
