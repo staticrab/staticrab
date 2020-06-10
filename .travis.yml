@@ -1,0 +1,15 @@
+language: python
+dist: bionic
+python:
+  - "3.8"
+# command to install dependencies
+install:
+  - pip install . -r requirements.txt
+script:
+  # command to lint code
+  - flake8 --config .flake8
+  # command to run tests with coverage
+  - make coverage
+  - pytest
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
