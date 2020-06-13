@@ -40,6 +40,11 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
     >>> a = np.array(range(2000), dtype=np.float64)
     >>> chatterjee(a, a)
     0.9985007496251874
+
+    Notes
+    -----
+    There appeared another python implementation at https://github.com/czbiohub/xicor 
+    but the computed valus are different.
     """
     # TODO: Move this check to the backend
     if len(np.unique(y)) == 1:
