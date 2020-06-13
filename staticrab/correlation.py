@@ -43,7 +43,7 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
 
     Notes
     -----
-    There appeared another python implementation at https://github.com/czbiohub/xicor 
+    There appeared another python implementation at https://github.com/czbiohub/xicor
     but the computed valus are different.
     """
     # TODO: Move this check to the backend
