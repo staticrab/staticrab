@@ -4,7 +4,7 @@ default:
 stages:
   - test
 
-test:
+linting_pytest:
   stage: test
   before_script:
   - pip install . -r requirements.txt
@@ -21,7 +21,3 @@ test_documentation:
   - cd docs
   - pip install -U sphinx
   - sphinx-build -b html . ../public
-  only:
-  - branches
-  except:
-  - master
