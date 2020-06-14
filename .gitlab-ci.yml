@@ -29,6 +29,8 @@ deploy_documentation:
   - cd docs
   - pip install -r requirements.txt
   - sphinx-build -b html . ../public
+  - ls -ll
+  - ls ../public -ll
   artifacts:
     paths:
     - public
