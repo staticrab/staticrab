@@ -3,6 +3,7 @@ default:
 
 stages:
   - test
+  - deploy
 
 linting_pytest:
   stage: test
@@ -21,3 +22,15 @@ test_documentation:
   - cd docs
   - pip install -r requirements.txt
   - sphinx-build -b html . ../public
+
+deploy_documentation:
+  stage: deploy
+  script:
+  - cd docs
+  - pip install -r requirements.txt
+  - sphinx-build -b html . ../public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
