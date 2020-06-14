@@ -23,7 +23,7 @@ test_documentation:
   - pip install -r requirements.txt
   - sphinx-build -b html . ../public
 
-deploy_documentation:
+pages:
   stage: deploy
   needs: ["test_documentation"]
   script:
