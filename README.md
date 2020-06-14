@@ -24,7 +24,7 @@ pip install staticrab
 
 ## Notes
 
-It requires to have installed the `staticrab-backend` installed.
+This library is just a thin wrapper over the `staticrab-backend` for proper testing and documentation and it thus requires to have installed the `staticrab-backend` installed.
 
 ```
 pip install staticrab-backend
