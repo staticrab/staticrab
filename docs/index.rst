@@ -5,7 +5,9 @@
 
 Welcome to staticrab's documentation!
 =====================================
-Staticrab is a python package aimed at fast(ish) calculation of correlation coefficients in python.
+Staticrab_ is a python package aimed at fast(ish) calculation of correlation coefficients in python.
+
+.. _staticrab: https://github.com/staticrab/staticrab
 
 .. automodule:: staticrab.correlation
     :members:
