@@ -15,7 +15,7 @@ The goal of this mini library is not to replace [Scipy stack](https://www.scipy.
 So far, this library implements only one function and that is the fast(ish) calculation of Chatterjee's correlation coefficient.
 
 ### Chatterjee's correlation coefficient
-Chatterjee's correlation coefficient (also called Chatterjee's xi) is a recently proposed correlation coeffient that can be used for testing of nonlinear functional relationships between two variables (viz [original paper](https://arxiv.org/abs/1909.10140)).
+Chatterjee's correlation coefficient (also called Chatterjee's Xi or just Xi correlation) is a recently proposed correlation coeffient that can be used for testing of nonlinear functional relationships between two variables (viz [original paper](https://arxiv.org/abs/1909.10140)).
 
 ## Installation
 ```
