@@ -45,8 +45,6 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
     -----
     There appeared another python implementation at https://github.com/czbiohub/xicor
     but the computed valus are different.
-
-    This build has failed the tests yet the documentation was built and deployed :/ (testing CI)
     """
     # TODO: Move this check to the backend
     if len(np.unique(y)) == 1:
