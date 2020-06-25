@@ -55,4 +55,4 @@ def chatterjee(x: np.ndarray, y: np.ndarray) -> float:
         raise ValueError(f"Only the dtype = np.float64 is supported. The provided y has dtype {y.dtype}.")
 
     # calling the backend function that does not do any checks
-    return cast(float, B.chatterjee(x, y, False))
+    return cast(float, B.chatterjee_single(x, y, False, False))
