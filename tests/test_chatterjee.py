@@ -17,3 +17,11 @@ def test_chatterjee_02() -> None:
     res = chatterjee(x, y)
     expected = 0.5714285714285714
     nptest.assert_allclose(res, expected)
+
+
+def test_chatterjee_03() -> None:
+    x = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0])
+    y = np.array([6.0, 5.0, 4.0, 3.0, 2.0, 1.0])
+    res = chatterjee(x, y)
+    expected = 0.5714285714285714
+    nptest.assert_allclose(res, expected)
