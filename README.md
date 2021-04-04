@@ -24,7 +24,7 @@ pip install staticrab
 
 ## Notes
 
-This library is just a thin wrapper over the `staticrab-backend` for proper testing and documentation (the `staticrab-backend` is written in rust and exporting python-like behavior from there is less transparent then just adding a thin wrapper library) and it thus requires to have installed the `staticrab-backend` installed.
+This library is just a thin wrapper over the `staticrab-backend` for proper testing and documentation (the `staticrab-backend` is written in rust and exporting python-like behavior from there is less transparent than just adding a thin wrapper library) and it thus requires to have installed the `staticrab-backend` installed.
 
 ```
 pip install staticrab-backend
